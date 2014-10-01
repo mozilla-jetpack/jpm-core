@@ -1,0 +1,16 @@
+{
+  "name": "jpm-core",
+  "version": "0.0.1",
+  "description": "Cross platform components for building Firefox add-ons",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jpm",
+    "jetpack",
+    "firefox"
+  ],
+  "author": "Erik Vold <evold@mozilla.com> (http://work.erikvold.com/)",
+  "license": "MPL v2.0"
+}
