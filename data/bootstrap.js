@@ -141,7 +141,7 @@ const readPaths = (options, id, name, domain, baseURI, isNative=false) => {
   let paths = {
     "": "resource://gre/modules/commonjs/",
     "./": isNative ? baseURI : baseURI + name + '/lib/',
-    "./tests/": isNative ? baseURI : baseURI + name + '/tests/'
+    "./tests/": (isNative ? baseURI : baseURI + name + '/') + 'tests/'
   };
 
   Object.keys(options.manifest || {}).reduce((paths, prefix) => {
