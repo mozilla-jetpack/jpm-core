@@ -280,7 +280,8 @@ const startup = (addon, reasonCode) => {
         paths: paths,
         manifest: options.manifest || metadata,
         metadata: metadata,
-        modules: modules
+        modules: modules,
+        noQuit: getPref("extensions." + id + ".sdk.test.no-quit", false)
       });
 
       const module = loaderModule.Module(loaderID, loaderURI);
