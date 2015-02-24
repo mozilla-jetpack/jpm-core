@@ -1,6 +1,6 @@
 {
   "name": "jpm-core",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Cross platform components for building Firefox add-ons",
   "main": "./index.js",
   "keywords": [
@@ -10,5 +10,10 @@
     "mozilla"
   ],
   "author": "Erik Vold <evold@mozilla.com> (http://work.erikvold.com/)",
-  "license": "MPL v2.0"
+  "license": "MPL v2.0",
+  "homepage": "https://github.com/mozilla/jpm-core",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mozilla/jpm-core.git"
+  }
 }
