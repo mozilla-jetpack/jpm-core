@@ -18,9 +18,5 @@
   },
   "bugs": {
     "url": "http://github.com/mozilla/jpm-core/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mozilla/jpm-core.git"
   }
 }
