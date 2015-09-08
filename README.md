@@ -1,4 +1,4 @@
-# JPM Core  [![Build Status](https://travis-ci.org/mozilla/jpm-core.png)](https://travis-ci.org/mozilla/jpm-core)
+# JPM Core  [![Build Status](https://travis-ci.org/mozilla-jetpack/jpm-core.png)](https://travis-ci.org/mozilla-jetpack/jpm-core)
 ===
 
 [![NPM](https://nodei.co/npm/jpm-core.png?stars&downloads)](https://nodei.co/npm/jpm-core)
